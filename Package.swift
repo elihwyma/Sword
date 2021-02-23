@@ -17,10 +17,7 @@ dependencies += [
 targetDeps += ["Starscream"]
 #else
 dependencies += [
-  .package(
-    url: "https://github.com/vapor/engine.git",
-    .upToNextMajor(from: "2.0.0")
-  )
+  .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
 ]
   
 targetDeps += ["URI", "WebSockets"]
