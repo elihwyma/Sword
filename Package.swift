@@ -18,7 +18,7 @@ targetDeps += ["Starscream"]
 #else
 dependencies += [
   .package(url: "https://github.com/vapor/http.git", from: "3.0.0"),
-  .package(url: "https://github.com/my-mail-ru/swift-URI.git", branch: "master"),
+  .Package(url: "https://github.com/my-mail-ru/swift-URI.git", branch: "master"),
 ]
   
 targetDeps += ["URI", "WebSockets"]
