@@ -18,8 +18,8 @@ targetDeps += ["Starscream"]
 #else
 dependencies += [
   .package(
-    url: "https://github.com/vapor/engine.git",
-    .upToNextMajor(from: "2.0.0")
+    url: "https://github.com/CharlieWhile13/http.git",
+    .branch("vapor-2")
   )
 ]
   
