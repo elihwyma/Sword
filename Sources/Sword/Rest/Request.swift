@@ -8,6 +8,9 @@
 
 import Foundation
 import Dispatch
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 /// HTTP Handler
 extension Sword {

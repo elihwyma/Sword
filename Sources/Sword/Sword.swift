@@ -8,6 +8,9 @@
 
 import Foundation
 import Dispatch
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 /// Main Class for Sword
 open class Sword: Eventable {
