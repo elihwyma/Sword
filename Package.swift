@@ -18,7 +18,7 @@ targetDeps += ["Starscream"]
 #else
 dependencies += [
   .package(
-    url: "https://github.com/CharlieWhile13/http.git",
+    url: "https://github.com/elihwyma/http.git",
     .branch("vapor-2")
   )
 ]
